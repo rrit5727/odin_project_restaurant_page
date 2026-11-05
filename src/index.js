@@ -1,5 +1,6 @@
 import displayHeading from "./displayHeading";
 import displayMenu from "./displayMenu";
+import displayAbout from "./displayAbout";
 console.log("Hello")
 
 
@@ -24,7 +25,7 @@ menuButton.addEventListener('click', () => {
 
 aboutButton.addEventListener('click', () => {
   content.textContent = "";
-  // displayHeading();
+  displayAbout();
 });
 
 
